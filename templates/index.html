@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../static/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../static/styles.css" />
     <title>CC</title>
-</head>
-<body>
-</body>
+  </head>
+  <body>
+    <form method="post" action="/" id="code-form">
+      <button type="submit" class="run-button" id="submit_button">Run</button>
+      <label for="coding-textarea">C Code Compiler</label><br />
+      <textarea name="coding_area" class="coding-area" id="coding-textarea">
+{{text_area}}</textarea
+      >
+      <br /><label for="input-textarea">Input</label><br />
+      <textarea name="input_area" class="input-area" id="input-textarea">
+{{input_fields}}</textarea
+      >
+    </form>
+    <p>{{output}}</p>
+    <script src="../static/index.js"></script>
+  </body>
 </html>

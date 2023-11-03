@@ -1,0 +1,18 @@
+.coding-area,
+.input-area {
+  width: 45rem;
+  border: none;
+  resize: none;
+  
+}
+
+.coding-area {
+  height: 30rem;
+  background-color: rgb(244, 248, 255);
+  
+}
+
+.input-area {
+  height: 10rem;
+  background-color: rgb(236, 255, 250);
+}
